@@ -1,0 +1,1432 @@
+
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Sep 4, 2019, 12:42:01 PM
+    Author     : pak1p
+*/
+
+
+
+
+
+/*
+
+::-webkit-input-placeholder {
+  color: peachpuff;
+  font-size: 12px;
+   text-align: right;
+}
+::-moz-placeholder {
+  color: peachpuff;
+  font-size: 8px;
+     text-align: right;
+}
+:-ms-input-placeholder {
+  color: peachpuff;
+  font-size: 12px;
+    text-align:right;
+}
+::placeholder {
+  color: peachpuff;
+  font-size: 12px;
+    text-align: right;
+}
+*/
+
+/* start nav */
+
+nav ul li a{
+    padding-left:5;
+    font-size: 2rem;
+    font-weight: 600;
+   color: black;   
+}
+
+navbar-toggler{
+ color: #2c3e50;  
+}
+body {
+  
+     background-color:#F8F8FF;
+     color: black;
+     
+}
+
+header{
+
+   
+    background-color: white;
+    border: solid .2px black;
+    color: black;
+}
+
+/* end header */
+
+
+
+
+/*
+ #dc{
+border: thin white solid;
+border-width: 10px 4px 8px 4px;
+background-color:white;
+position:relative;
+}
+
+*/
+
+
+footer{
+    color:black;
+}
+
+
+
+
+table, th{
+	border: 1px solid black;
+}
+
+
+#hummingdiv{
+		border: 1px solid black;
+	width:1200px;
+	height:120px;
+	
+}
+
+
+
+
+
+
+.but1:active{
+  color:green;
+}
+.but1:hover{
+  color:red;
+  text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.flightdc{
+	
+	background-color:white;
+	margin-left:4rem;
+		box-shadow:0 0 .3rem 0 rgba(0,0,0,.12),0 1px 1px 0 rgba(0,0,0,0.12);
+}
+.ruler{
+	margin-left:3rem;
+	padding-left:3.7rem;
+	padding-right:2rem;
+	width:38.2rem;
+	background-color:#f7f7f7;
+}
+
+
+
+.default {
+  color: black;
+}
+
+.default:hover {
+  background: #e7e7e7;
+}
+
+
+
+.w3-card{
+	/* 	box-shadow:0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);    #F0E68C */
+		
+
+	
+}
+
+
+
+
+/*
+.testim{
+	
+	 position: absolute;
+;
+  z-index: -1;
+}
+
+
+*/
+
+
+
+
+
+.fontstylinglink:hover{
+	
+	color:green;
+}
+
+
+
+.verticalline {
+  border-left: 1px solid blue;
+  height: 100px;
+}
+
+
+
+
+
+
+
+.liness{
+			width:9%;
+		
+border-top: 1px solid black;
+
+	
+	
+}
+
+.line{
+			width:15%;
+		
+border-top: 1px solid black;
+
+	
+	
+	
+}
+
+
+
+
+.vl {
+  border-left: 1px solid green;
+  height: 130px;
+  
+}
+
+.footerhr{
+	padding: 20px 0;
+}
+
+
+
+/*
+hr {
+    bottom: 25px;
+    
+    z-index: 1;
+    margin-left:400px;
+    width:80px;
+    background-color:black;
+    clear:both;
+    position: relative;
+    display:block;
+    
+}
+*/
+
+.backcolor{
+	 background-color:#004d80;
+}
+
+.divider{
+  flex-grow:1;
+  height: 1px;
+  background-color: #9f9f9f;
+}
+
+
+footer{
+    margin-top: 30px;
+    border-bottom: 5px black;
+    
+     color: black;
+   font-weight: bold;
+   text-align: center;
+}
+
+
+.nav-item{
+   
+    
+    padding-left: 120px;
+    font-style: normal;
+  color: black;
+    
+}
+
+
+#ahsan{
+	visibility:hidden;
+}
+
+
+
+
+
+.alert{
+	margin-top:0px;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.container {
+margin-left: 200px;
+width: auto;
+ 
+    margin-right: 200px;
+  
+  
+}
+
+
+
+.flightdetails1{
+	 box-sizing: content-box;  
+  width: 1000px;
+  height: 150px;
+  
+  border: 2px solid black ;
+
+
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+/* start Flight.jsp */
+
+.flightdeals{
+	
+		 font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
+		 	 color: black;
+	 font-size:21px;
+	
+}
+.bottom-left{
+
+     position: absolute;
+  bottom: 130px;
+  left: 20px;
+  color:#f1f2f8;
+  font-size:17px;
+  font-weight:bold;
+   font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
+}
+
+.bottom-right{
+	 position: absolute;
+  bottom: 130px;
+  right: 23px;
+  color:white;
+  font-size:14px;
+   font-weight:bold;
+}
+
+#flightsearch{
+	border: solid 1px black;
+	width:1130px;
+	height:170px;
+	background-color:white;
+	position:absolute;
+}
+
+
+
+#myDivheadline{
+	
+
+  
+    position: absolute;
+    left:400px; top:120px;
+
+		
+	  animation-name:headline;
+  
+  
+  animation-duration: 3s;
+  animation-delay: 0s;
+	
+}
+
+
+@keyframes headline {
+  0% {
+    
+      opacity:1;
+    
+  }
+  50% {
+
+   opacity:0;
+  }
+  100% {
+  
+   opacity:1;
+  }
+
+
+}
+
+
+
+
+
+
+#myDivheadline1{
+	
+
+  opacity:0;
+    position: absolute;
+    left:400px; top:120px;
+
+		
+	  animation-name:headline1;
+  
+  
+  animation-duration: 8s;
+  animation-delay: 4s;
+	
+}
+
+
+@keyframes headline1 {
+  0% {
+    
+      opacity:1;
+    
+  }
+  50% {
+
+   opacity:0;
+  }
+  100% {
+  
+   opacity:1;
+  }
+
+
+}
+
+
+
+
+
+
+#myDiv {
+  
+    position: absolute;
+    top: 0;
+    right: 0;
+  
+}
+
+
+
+
+
+#myDiv{
+	opacity:0;
+	position: relative;
+  
+  animation-name: example;
+  animation-duration: 2s;
+  
+  
+  
+  
+
+  
+ 
+}
+
+
+@keyframes example {
+  0% {
+     opacity:1;
+    left:0px; top:0px;
+
+    
+  }
+  50% {
+     opacity:1;
+   left:500px; top:0px;
+  }
+  100% {
+     opacity:1;
+   left:1200px; top:0px;
+  }
+
+  
+
+  
+   
+  
+}
+
+
+#myDiv1{
+	opacity:0;
+	position: relative;
+  
+  animation-name: example1;
+  animation-duration: 3s;
+  animation-delay: 1s;
+  
+  
+  
+  
+
+  
+ 
+}
+
+
+@keyframes example1 {
+  0% {
+    left:0px; top:0px;
+      opacity:1;
+    
+  }
+  50% {
+   left:600px; top:0px;
+   opacity:1;
+  }
+  100% {
+   left:1100px; top:0px;
+   opacity:1;
+  }
+
+  
+
+  
+   
+  
+}
+
+
+
+
+
+#myDiv2{
+	opacity:0;
+	position: relative;
+  
+  animation-name: example2;
+  animation-duration: 2s;
+  animation-delay: 2s;
+  
+  
+  
+  
+
+  
+ 
+}
+
+
+@keyframes example2 {
+  0% {
+    left:0px; top:0px;
+      opacity:1;
+    
+  }
+  50% {
+   left:440px; top:0px;
+   opacity:1;
+  }
+  100% {
+   left:1010px; top:0px;
+   opacity:1;
+  }
+
+  
+
+  
+   
+  
+}
+
+
+
+
+
+
+
+#myDiv3{
+	opacity:0;
+	position: relative;
+  
+  animation-name: example3;
+  animation-duration: 2s;
+  animation-delay: 3s;
+  
+  
+  
+  
+
+  
+ 
+}
+
+
+@keyframes example3 {
+  0% {
+    left:0px; top:0px;
+      opacity:1;
+    
+  }
+  50% {
+   left:450px; top:0px;
+   opacity:1;
+  }
+  100% {
+   left:1010px; top:0px;
+   opacity:1;
+  }
+
+  
+
+  
+   
+  
+}
+
+
+
+
+
+
+
+
+#myDiv4{
+	opacity:0;
+	position: relative;
+  
+  animation-name: example4;
+  animation-duration: 2s;
+  animation-delay: 4s;
+  
+  
+  
+  
+
+  
+ 
+}
+
+
+@keyframes example4 {
+  0% {
+    left:0px; top:0px;
+      opacity:1;
+    
+  }
+  50% {
+   left:450px; top:0px;
+   opacity:1;
+  }
+  100% {
+   left:1130px; top:0px;
+   opacity:1;
+  }
+
+  
+
+  
+   
+  
+}
+
+
+
+
+#myDiv5{
+	opacity:0;
+	position: relative;
+  
+  animation-name: example5;
+  animation-duration: 2s;
+  animation-delay: 5s;
+  
+  
+  
+  
+
+  
+ 
+}
+
+
+@keyframes example5 {
+  0% {
+    left:0px; top:0px;
+      opacity:1;
+    
+  }
+  50% {
+   left:450px; top:0px;
+   opacity:1;
+  }
+  100% {
+   left:1130px; top:0px;
+   opacity:1;
+  }
+
+  
+
+  
+   
+  
+}
+
+
+#myDiv6{
+	opacity:0;
+	position: relative;
+  
+  animation-name: example6;
+  animation-duration: 2s;
+  animation-delay: 6s;
+  
+  
+  
+  
+
+  
+ 
+}
+
+
+@keyframes example6 {
+  0% {
+    left:0px; top:0px;
+      opacity:1;
+    
+  }
+  50% {
+   left:450px; top:0px;
+   opacity:1;
+  }
+  100% {
+   left:1130px; top:0px;
+   opacity:1;
+  }
+
+  
+
+  
+   
+  
+}
+
+
+
+
+#myDiv7{
+	opacity:0;
+	position: relative;
+  
+  animation-name: example7;
+  animation-duration: 2s;
+  animation-delay: 7s;
+  
+  
+  
+  
+
+  
+ 
+}
+
+
+@keyframes example7 {
+  0% {
+    left:0px; top:0px;
+      opacity:1;
+    
+  }
+  50% {
+   left:450px; top:0px;
+   opacity:1;
+  }
+  100% {
+   left:1130px; top:0px;
+   opacity:1;
+  }
+
+  
+
+  
+   
+  
+}
+
+
+
+
+#myDiv8{
+	opacity:0;
+	position: relative;
+  
+  animation-name: example8;
+  animation-duration: 2s;
+  animation-delay: 8s;
+  
+  
+  
+  
+
+  
+ 
+}
+
+
+@keyframes example8 {
+  0% {
+    left:0px; top:0px;
+      opacity:1;
+    
+  }
+  50% {
+   left:450px; top:0px;
+   opacity:1;
+  }
+  100% {
+   left:1010px; top:0px;
+   opacity:1;
+  }
+
+  
+
+  
+   
+  
+}
+
+
+#myDiv9{
+	opacity:0;
+	position: relative;
+  
+  animation-name: example9;
+  animation-duration: 2s;
+  animation-delay: 9s;
+  
+  
+  
+  
+
+  
+ 
+}
+
+
+@keyframes example9 {
+  0% {
+    left:0px; top:0px;
+      opacity:1;
+    
+  }
+  50% {
+   left:450px; top:0px;
+   opacity:1;
+  }
+  100% {
+   left:1010px; top:0px;
+   opacity:1;
+  }
+
+  
+
+  
+   
+  
+}
+
+
+
+#myDiv10{
+	opacity:0;
+	position: relative;
+  
+  animation-name: example10;
+  animation-duration: 2s;
+  animation-delay: 10s;
+
+ 
+}
+
+
+@keyframes example10 {
+  0% {
+    left:0px; top:0px;
+      opacity:1;
+    
+  }
+  50% {
+   left:450px; top:0px;
+   opacity:1;
+  }
+  100% {
+   left:1010px; top:0px;
+   opacity:1;
+  }
+
+ 
+  
+}
+
+
+
+
+
+
+#tab1{
+	background-color:white;
+
+}
+
+
+.bo{
+	border: black solid 1px;
+}
+.bo1{
+	border: black solid 1px;
+}
+
+#flightdetail {
+    display:none;
+ 
+}
+
+#flightdetail1 {
+    display:none;
+
+}
+
+
+
+
+
+#flightdetail2 {
+    display:none;
+  
+} 
+
+
+#flightdetail3 {
+    display:none;
+ 
+} 
+
+
+#flightdetail4 {
+    display:none;
+
+} 
+
+#flightdetail5 {
+    display:none;
+  
+} 
+
+#flightdetail6 {
+    display:none;
+
+} 
+
+#flightdetail7 {
+    display:none;
+  
+} 
+
+#flightdetail8 {
+    display:none;
+   
+} 
+
+
+#flightdetail9 {
+    display:none;
+
+} 
+.error{
+	color:blue;
+}
+
+#flightdetail10{
+    display:none;
+  
+} 
+
+#flightdetail11 {
+    display:none;
+
+} 
+
+#flightdetail12 {
+    display:none;
+  
+} 
+.fontstyling1{
+	 font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
+
+	 color: #666;
+	 font-size:11px;
+	
+}
+#time{
+	background-color:white;
+border:none;
+	
+	outline:none;
+	 pointer-events: none;
+	 padding:0;
+}
+
+#time2{
+	background-color:white;
+	border:none;
+	border-color:transparent;
+	outline:none;
+	 pointer-events: none;
+}
+
+.fontstylinglink{
+	
+
+	font-color:blue;
+	color:blue;
+	
+	  white-space: normal;
+
+
+
+	
+
+
+text-decoration:none;
+     outline:none;
+     cursor:pointer;
+     
+     
+     	border:none;
+	background:none;
+     
+     
+     
+     
+     
+     	 font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
+
+	
+	 font-size:14px;
+   
+}
+
+.fontstylingprice{
+	 font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
+
+	 color: #666;
+	 font-size:14px;
+	 font-weight:bold;
+	
+}
+
+
+
+.totalflighttime{
+	
+vertical-align:bottom;
+position:absolute;
+margin-left:23rem;
+margin-top:1.7rem;
+
+	background-color:white;
+	border:none;
+	
+	outline:none;
+	 pointer-events: none;
+	 padding:0;
+
+
+}
+
+
+/* end flight.jsp */
+
+
+
+/* start mobile Flight */
+.fontstylingmobile{
+		
+		 
+		 font-family: Helvetica, Arial, sans-serif;
+
+	 
+	 font-size:.93rem;
+	 
+	 border:none;
+			background-color:#118acb;
+		color:white;
+	
+	outline:none;
+	 pointer-events: none;
+	 	
+	
+}
+
+.mobileeditbutton{
+border: 1px solid white;	
+	 font-family: Helvetica, Arial, sans-serif;
+
+	 color:white;
+	 font-size:.94rem;
+}
+
+#dayz{
+		
+	
+	border:none;
+			border-color:transparent;
+	
+	outline:none;
+	 pointer-events: none;
+			
+}
+
+.fontstyling{
+	 font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
+
+	 color: #666;
+	 font-size:14px;
+	
+}
+
+
+
+
+
+
+/* end mobile Flight */
+
+
+
+
+
+
+
+
+
+/*  FinalBookings */
+#airlinelable{
+	background-color:white;
+	border:none;
+	border-color:transparent;
+	outline:none;
+	 pointer-events: none;
+}
+
+.totalflighttimefinal{
+	
+vertical-align:bottom;
+position:absolute;
+margin-left:47%;
+margin-top:1.5rem;
+
+	background-color:white;
+	border:none;
+	font-size:.9rem;
+	outline:none;
+	 pointer-events: none;
+	 padding:0;
+
+
+}
+
+
+.finalfontstyling{
+	 font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
+
+	 color: #666;
+	 font-size:16px;
+	
+}
+
+.finalfontstylingbold{
+	 font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
+
+	 color: #666;
+	 font-size:16px;
+	font-weight:bold;
+}
+
+.fontstyling{
+	 font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
+
+	 color: #666;
+	 font-size:14px;
+	
+}
+.finalmont12{
+	
+max-height:1.3rem;
+	border:none;
+			border-color:transparent;
+	
+	outline:none;
+	 pointer-events: none;
+
+}
+
+.mont12{
+	
+height:1.4rem;
+	border:none;
+			border-color:transparent;
+	
+	outline:none;
+	 pointer-events: none;
+
+}
+
+.detail{
+	background-color:  #fff1cc;
+box-shadow:0 0 .3rem 0 rgba(0,0,0,.12),0 1px 1px 0 rgba(0,0,0,0.12);	
+
+font-weight:bold;
+
+}
+
+.bg{
+	 background-color: green;
+	
+}
+.base{
+	background-color: #e7e7e7;
+}
+
+.hummingrow{
+	
+	
+	margin-left:11.4rem;
+	margin-top:-3.1rem;
+	
+	
+}
+
+
+/* end final bookings */
+
+/* start mobile final bookings */
+
+
+.mobileairlinename{
+ color: black;	
+ 	font-family: Helvetica, Arial, sans-serif;
+
+	 
+	 font-size:.90rem;
+}
+.mobileflightdetail{
+	font-family: Helvetica, Arial, sans-serif;
+	background-color:white;
+	 
+	 font-size:.80rem;
+	
+	 font-weight:bold;
+	 
+	 border-color:transparent;
+			border:none;
+
+	outline:none;
+	 pointer-events: none;
+	
+}
+
+.mobiletotaltime{
+ color: #747474;	
+ 	font-family: Helvetica, Arial, sans-serif;
+
+	 
+	 font-size:.83rem;
+}
+
+
+.mobilemont12{
+	border:none;
+			border-color:transparent;
+			
+	
+	outline:none;
+	 pointer-events: none;
+}
+
+.mobileimageborder{
+	
+
+border: .02rem solid  #747474;	
+
+}
+
+.mobileflightdetail1{
+	font-family: Helvetica, Arial, sans-serif;
+
+	 
+	 font-size:.83rem;
+	
+	border-color:transparent;
+			
+	
+	outline:none;
+	 pointer-events: none;
+	 color: #747474;
+	
+}
+
+
+
+/*end mobile final bookings*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*.vr {
+    width:.1rem;
+    background-color:#F3F5F6;
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:55rem;
+} */
+
+
+#pr{
+	 border-left: 6px solid green;
+  height: 50px;
+  margin-top :-80px;
+  margin-left:900px;
+}
+
+#d{
+	background-color:white;
+	border:none;
+}
+
+.carousel-item{
+    height: 500px;
+}
+
+.carousel-item img{
+    height:500px;
+}
+
+/*.navbar-light .navbar-nav .nav-link{
+    color:black;
+}*/
+
+
+
+
+
+
+/*
+
+
+
+
+
+::-webkit-input-placeholder {
+   text-align: center;
+}
+
+:-moz-placeholder {
+   text-align: center;  
+}
+
+::-moz-placeholder {  
+   text-align: center;  
+}
+
+:-ms-input-placeholder {  
+   text-align: center; 
+}
+
+
+.js-serial {
+  counter-reset: rowNumber;
+}
+.js-serial tr {
+  counter-increment: rowNumber;
+}
+.js-serial tr td:first-child::before {
+  content: counter(rowNumber);
+  min-width: 1em;
+  margin-right: 0.5em;
+}
+
+*/
+
+.adminallbookingtable td:first-child:before
+{
+  counter-increment: Serial;      /* Increment the Serial counter */
+  content: "Serial is: " counter(Serial); /* Display the counter */
+}
